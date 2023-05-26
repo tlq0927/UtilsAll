@@ -33,6 +33,7 @@ android {
             dirs 'libs'
         }
     }
+
 }
 
 dependencies {
@@ -53,7 +54,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.tlq0927'
                 artifactId = 'UtilsAll'
-                version = '1.0'
+                version = '1.1.1'
             }
         }
     }
