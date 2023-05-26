@@ -4,7 +4,7 @@ plugins {
 }
 
 group = 'com.github.tlq0927'
-version = '1.1.5'
+version = '1.1.6'
 
 android {
     compileSdk 32
@@ -12,8 +12,8 @@ android {
     defaultConfig {
         minSdk 23
         targetSdk 32
-        versionCode 3
-        versionName "1.1.5"
+        versionCode 6
+        versionName "1.1.6"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -53,9 +53,8 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 groupId = 'com.github.tlq0927'
-//                artifactId = 'UtilsAll'
-                artifactId = 'utlislibrary'
-                version = '1.1.5'
+                artifactId = 'UtilsAll'
+                version = '1.1.6'
             }
         }
     }
