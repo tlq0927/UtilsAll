@@ -3,7 +3,7 @@ plugins {
     id 'maven-publish'
 }
 
-group = 'com.legrand.utlislibrary'
+group = 'com.github.tlq0927'
 version = '1.0'
 
 android {
@@ -51,7 +51,7 @@ afterEvaluate {
         publications{
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.legrand.utlislibrary'
+                groupId = 'com.github.tlq0927'
                 artifactId = 'utlislibrary'
                 version = '1.0'
             }
