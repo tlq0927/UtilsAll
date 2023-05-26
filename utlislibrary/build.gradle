@@ -52,7 +52,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 groupId = 'com.github.tlq0927'
-                artifactId = 'utlislibrary'
+                artifactId = 'UtilsAll'
                 version = '1.0'
             }
         }
